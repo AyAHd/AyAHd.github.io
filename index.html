@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex, nofollow">
+        <style type="text/css">
+          body { background-color: rgb(47,52,55);margin:0;padding:0;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+        </style>
+        <title>JSVG Clock 🕙</title>
+    </head>
+    <body>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="800" height="400" viewBox="0 0 200 100">
+        <defs>
+          <text id="Time" class="centered">00:00</text>
+          <text id="Date" class="centered">--- --- --</text>
+
+          <style>
+            text.centered {    
+              font-family:monospace;
+            }
+            text#Time {
+              font-size: 4em;
+              transform: translate(-1.5em,0.3em);
+              fill: white;
+            }
+            text#Date {
+              transform: translate(-3em,0.3em);
+              font-size: 2em;
+              fill: grey;
+            }
+            .rotate {
+              transform-origin: center center;
+              -webkit-animation: move 0.5s ease infinite alternate;
+              -moz-animation: move 0.5s ease infinite alternate;
+              animation: move 0.5s ease infinite alternate;
+            }
+            @keyframes move {
+              0% {
+                transform: rotate(-1deg);
+              }
+              100% {
+                transform: rotate(1deg);
+              }
+            }
+          </style>
+          <script> 
+            // <![CDATA[
+                function getDate() {
+                  const d = new Date(Date.now())
+                  return d.toDateString().slice(0, 10)
+                }
+
+                function getTime() {
+                  const d = new Date(Date.now())
+                  const H = ("0" + d.getHours()).slice(-2)
+                  const M = ("0" + d.getMinutes()).slice(-2)
+                  const S = ("0" + d.getSeconds()).slice(-2)
+                  return `${H}:${M}`
+                }
+
+                function refresh(){
+                  document.querySelector("#Date").innerHTML = getDate()
+                  document.querySelector("#Time").innerHTML = getTime()
+                }
+                refresh()
+                const interval = setInterval(refresh, 5000);
+            // ]]>
+          </script>
+        </defs>
+        <title/>
+        <use href="#Time" class="" x="50%" y="50%">00:00</use>
+        <use href="#Date" class="" x="50%" y="85%">00:00</use>
+      </svg>
+    </body>
+</html>
