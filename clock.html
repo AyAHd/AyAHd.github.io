@@ -4,7 +4,28 @@
         <meta charset="utf-8">
         <meta name="robots" content="noindex, nofollow">
         <style type="text/css">
-          body { background-color: rgb(47,52,55);margin:0;padding:0;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+          :root {
+            /* Dark mode */
+            --notion-dark-bg:     rgb(47,52,55) ;      /* var(--notion-dark-bg); */
+            --notion-dark-nav-bg: rgb(55,60,63) ;      /* var(--notion-dark-nav-bg); */
+            /* Light mode colors */
+            --notion-light-bg:    rgb(255, 255, 255);  /* var(--notion-light-bg); */
+            --notion-light-nav-bg:rgb(247, 246, 243);  /* var(--notion-light-nav-bg); */
+          }
+          /* Color binding */
+          @media (prefers-color-scheme: dark) { 
+            :root {
+              --notion-bg:     var(--notion-dark-bg);
+              --notion-nav-bg: var(--notion-dark-nav-bg);
+            }
+          }
+          @media (prefers-color-scheme: light) { 
+            :root {
+              --notion-bg:     var(--notion-light-bg);
+              --notion-nav-bg: var(--notion-light-nav-bg);
+            }
+          }
+          body { background-color: var(--notion-bg);margin:0;padding:0;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center;}
         </style>
         <title>JSVG Clock 🕙</title>
     </head>
