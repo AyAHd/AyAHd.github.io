@@ -4,32 +4,43 @@
         <meta charset="utf-8">
         <meta name="robots" content="noindex, nofollow">
         <style type="text/css">
+        :root {
+          --notion-bg:     transparent;
+          --notion-nav-bg: transparent;
+          /* Dark mode */
+          --notion-dark-text-color: rgb(255, 255, 255);
+          --notion-dark-bg:         rgb(25, 25, 25);      
+          --notion-dark-nav-bg:     rgb(32, 32, 32);    
+          /* Light mode colors */
+          --notion-light-text-color: rgb(25, 25, 25);
+          --notion-light-bg:         rgb(255, 255, 255);  
+          --notion-light-nav-bg:     rgb(247, 246, 243);  
+          /* Forcast colors */
+          --color-dark-blue:    #3BAFE5;
+          --color-light-blue:   #95D9F2;
+          --color-light-grey:   #ADADAD;
+          --color-dark-grey:    #3A3A3A;
+          --color-light-yellow: #FFD573;
+          --color-dark-yellow:  #FFB400;
+        }
+        /* Color binding */
+        @media (prefers-color-scheme: dark) { 
           :root {
-            --notion-bg:     transparent;
-            --notion-nav-bg: transparent;
+            --clock-main-text:  var(--notion-dark-text-color);
+            --clock-alt-text:   var(--color-light-grey);
+            --clock-bg:     var(--notion-dark-bg);
+            --clock-nav-bg: var(--notion-dark-nav-bg);
           }
+        }
+        @media (prefers-color-scheme: light) { 
           :root {
-            /* Dark mode */
-            --notion-dark-bg:     rgb(47,52,55) ;      /* var(--notion-dark-bg); */
-            --notion-dark-nav-bg: rgb(55,60,63) ;      /* var(--notion-dark-nav-bg); */
-            /* Light mode colors */
-            --notion-light-bg:    rgb(255, 255, 255);  /* var(--notion-light-bg); */
-            --notion-light-nav-bg:rgb(247, 246, 243);  /* var(--notion-light-nav-bg); */
+            --clock-main-text:  var(--notion-light-text-color);
+            --clock-alt-text:   var(--color-dark-grey);
+            --clock-bg:     var(--notion-light-bg);
+            --clock-nav-bg: var(--notion-light-nav-bg);
           }
-          /* Color binding */
-          @media (prefers-color-scheme: dark) { 
-            :root {
-              --notion-bg:     var(--notion-dark-bg);
-              --notion-nav-bg: var(--notion-dark-nav-bg);
-            }
-          }
-          @media (prefers-color-scheme: light) { 
-            :root {
-              --notion-bg:     var(--notion-light-bg);
-              --notion-nav-bg: var(--notion-light-nav-bg);
-            }
-          }
-          body { background-color: var(--notion-bg);margin:0;padding:0;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+        }
+        body { background-color: var(--clock-bg);margin:0;padding:0;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:hidden;}
         </style>
         <title>JSVG Clock 🕙</title>
     </head>
