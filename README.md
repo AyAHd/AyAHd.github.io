@@ -8,20 +8,22 @@ The following section references all the static single-page-Applications from th
     <summary>
         <b>🌈 Hue wheel</b> is a SPA supposed to help understanding and picking color in the HSL (Hue/Saturation/Lightness) notation.
     </summary>
-
-### 🚧 Changelog
-- 0.1 Initialization.
+    <iframe src="https://ayahd.github.io/hue-wheel.htm" width="500" height="500"/>
+    <h3>🚧 Changelog</h3>
+    <ul>
+        <li>v0.1: Initialization.</li>
+    </ul>
 </details>
-
+ 
 ## [🍵 Teapot party](teapot-party.htm)
 <details>
     <summary>
         <b>🍵 Teapot party</b> is a SPA (+Data) used in Genshin Impact to randomize team creation.
     </summary>
-
-### 🚧 Changelog
-- 0.1 Initialization.
-
+    <h3>🚧 Changelog</h3>
+    <ul>
+        <li>v0.1: Initialization.</li>
+    </ul>
 </details>
 
 ## [⏲ Vectorial clock](clock.htm)
@@ -30,10 +32,11 @@ The following section references all the static single-page-Applications from th
     <summary>
         <b>⏲ Vectorial clock</b> is a embedable SPA used for better time-management. It is embedable in Notion, Obsidian, etc...
     </summary>
-
-### 🚧 Changelog
-- 0.1 Initialization.
-
+    <iframe src="https://ayahd.github.io/clock.htm" width="960" height="520"/>
+    <h3>🚧 Changelog</h3>
+    <ul>
+        <li>v0.1: Initialization.</li>
+    </ul>
 </details>
 
 ---
@@ -43,14 +46,11 @@ The following section references all the static single-page-Applications from th
 ## ⛅ Forecast
 <details>
     <summary>
-        <b>Forecast</b> (`static/forecast/forecast.json` file) hosts weather forecast API-like data.
+        <b>Forecast</b> (`static/forecast/forecast.json` file) contains weather forecast data for API-like usage.
     </summary>
-    For 3 locations, data are pulled 4 times a day from forecast7 and pushed to `static/forcast/forecast.json` (using Make) to be used as a static and versioned data proxy.
-
-### 🚧 Changelog
-*Unversioned.*
-
-
+    <p>For 3 locations, data are pulled 4 times a day from forecast7 and pushed to `static/forcast/forecast.json` (using Make) to be used as a static and versioned data proxy.</p><br/>
+    <h3>🚧 Changelog</h3>
+    <b>Unversioned.</b>
 </details>
 
 ---
