@@ -8,7 +8,7 @@ The following section references all the static single-page-Applications from th
     <summary>
         <b>🌈 Hue wheel</b> is a SPA supposed to help understanding and picking color in the HSL (Hue/Saturation/Lightness) notation.
     </summary>
-    <iframe src="https://ayahd.github.io/hue-wheel.htm" width="500" height="500"/>
+    <iframe src="https://ayahd.github.io/hue-wheel.htm" width="500" height="500"></iframe>
     <h3>🚧 Changelog</h3>
     <ul>
         <li>v0.1: Initialization.</li>
@@ -32,7 +32,7 @@ The following section references all the static single-page-Applications from th
     <summary>
         <b>⏲ Vectorial clock</b> is a embedable SPA used for better time-management. It is embedable in Notion, Obsidian, etc...
     </summary>
-    <iframe src="https://ayahd.github.io/clock.htm" width="960" height="520"/>
+    <iframe src="https://ayahd.github.io/clock.htm" width="960" height="520"></iframe>
     <h3>🚧 Changelog</h3>
     <ul>
         <li>v0.1: Initialization.</li>
