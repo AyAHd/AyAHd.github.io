@@ -19,11 +19,16 @@ The following section references all the static single-page-Applications from th
 <details>
     <summary>
         <b>🍵 Teapot party</b> is a SPA (+Data) used in Genshin Impact to randomize team creation.
+        <i>Version don't match chars nor Genshin versions but features.</i>
     </summary>
     <h3>🚧 Changelog</h3>
     <ul>
         <li>v0.1: Initialization.</li>
     </ul>
+    <ul>
+        <li>Next char to come: Shinobu (10000065) - On Itto's banner release (20</li>
+    </ul>
+    
 </details>
 
 ## [⏲ Vectorial clock](clock.htm)
