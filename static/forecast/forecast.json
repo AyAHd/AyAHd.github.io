@@ -2,362 +2,13 @@
   {
     "source": "ow",
     "current": {
-      "icon": "clear-day",
-      "temp": 18,
-      "summary": "clear sky",
-      "windDir": 90,
-      "humidity": 73,
-      "pressure": 1013,
-      "feelsLike": 18,
-      "windSpeed": 3.09,
-      "cloudCover": 0,
-      "visibility": 10,
-      "percipitation": 0
-    },
-    "forecast": [
-      {
-        "date": 1655809200,
-        "maxTemp": 26,
-        "minTemp": 14,
-        "sunrise": "05:47",
-        "sunset": "21:59",
-        "summary": "light rain",
-        "windSpeed": 4.67,
-        "windDir": 34,
-        "percipitation": 0.89,
-        "humidity": 62,
-        "pressure": 1013,
-        "cloudCover": 27,
-        "dewPoint": 13,
-        "chancePrecipitation": 45,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Tuesday",
-        "dayShort": "Tue"
-      },
-      {
-        "date": 1655895600,
-        "maxTemp": 28,
-        "minTemp": 15,
-        "sunrise": "05:48",
-        "sunset": "21:59",
-        "summary": "light rain",
-        "windSpeed": 3.81,
-        "windDir": 13,
-        "percipitation": 0.44,
-        "humidity": 40,
-        "pressure": 1011,
-        "cloudCover": 97,
-        "dewPoint": 11,
-        "chancePrecipitation": 43,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Wednesday",
-        "dayShort": "Wed"
-      },
-      {
-        "date": 1655982000,
-        "maxTemp": 30,
-        "minTemp": 17,
-        "sunrise": "05:48",
-        "sunset": "21:59",
-        "summary": "heavy intensity rain",
-        "windSpeed": 6.21,
-        "windDir": 252,
-        "percipitation": 13.35,
-        "humidity": 40,
-        "pressure": 1011,
-        "cloudCover": 2,
-        "dewPoint": 13,
-        "chancePrecipitation": 86,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Thursday",
-        "dayShort": "Thu"
-      },
-      {
-        "date": 1656068400,
-        "maxTemp": 24,
-        "minTemp": 17,
-        "sunrise": "05:48",
-        "sunset": "21:59",
-        "summary": "light rain",
-        "windSpeed": 5.66,
-        "windDir": 226,
-        "percipitation": 2.9,
-        "humidity": 60,
-        "pressure": 1011,
-        "cloudCover": 87,
-        "dewPoint": 14,
-        "chancePrecipitation": 94,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Friday",
-        "dayShort": "Fri"
-      },
-      {
-        "date": 1656154800,
-        "maxTemp": 20,
-        "minTemp": 14,
-        "sunrise": "05:48",
-        "sunset": "21:59",
-        "summary": "light rain",
-        "windSpeed": 4.3,
-        "windDir": 223,
-        "percipitation": 1.3,
-        "humidity": 59,
-        "pressure": 1008,
-        "cloudCover": 100,
-        "dewPoint": 12,
-        "chancePrecipitation": 95,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Saturday",
-        "dayShort": "Sat"
-      },
-      {
-        "date": 1656241200,
-        "maxTemp": 21,
-        "minTemp": 10,
-        "sunrise": "05:49",
-        "sunset": "21:59",
-        "summary": "light rain",
-        "windSpeed": 4.89,
-        "windDir": 221,
-        "percipitation": 0.18,
-        "humidity": 36,
-        "pressure": 1013,
-        "cloudCover": 71,
-        "dewPoint": 5,
-        "chancePrecipitation": 46,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "rain",
-        "day": "Sunday",
-        "dayShort": "Sun"
-      },
-      {
-        "date": 1656327600,
-        "maxTemp": 22,
-        "minTemp": 11,
-        "sunrise": "05:49",
-        "sunset": "21:59",
-        "summary": "scattered clouds",
-        "windSpeed": 3.13,
-        "windDir": 222,
-        "percipitation": 0,
-        "humidity": 32,
-        "pressure": 1018,
-        "cloudCover": 31,
-        "dewPoint": 3,
-        "chancePrecipitation": 2,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "cloudy",
-        "day": "Monday",
-        "dayShort": "Mon"
-      },
-      {
-        "date": 1656414000,
-        "maxTemp": 26,
-        "minTemp": 13,
-        "sunrise": "05:50",
-        "sunset": "21:59",
-        "summary": "broken clouds",
-        "windSpeed": 1.95,
-        "windDir": 227,
-        "percipitation": 0,
-        "humidity": 30,
-        "pressure": 1016,
-        "cloudCover": 52,
-        "dewPoint": 6,
-        "chancePrecipitation": 0,
-        "chanceRain": 0,
-        "chanceSnow": 0,
-        "chanceThunder": 0,
-        "chanceSleet": 0,
-        "icon": "cloudy",
-        "day": "Tuesday",
-        "dayShort": "Tue"
-      }
-    ],
-    "timezone": "Europe/Paris",
-    "nextHours": [
-      {
-        "hour": "11:00",
-        "temp": 18,
-        "summary": "clear sky",
-        "icon": "clear-day"
-      },
-      {
-        "hour": "12:00",
-        "temp": 19,
-        "summary": "few clouds",
-        "icon": "partly-cloudy-day"
-      },
-      {
-        "hour": "13:00",
-        "temp": 20,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "14:00",
-        "temp": 22,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "15:00",
-        "temp": 24,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "16:00",
-        "temp": 26,
-        "summary": "few clouds",
-        "icon": "partly-cloudy-day"
-      },
-      {
-        "hour": "17:00",
-        "temp": 26,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "18:00",
-        "temp": 26,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "19:00",
-        "temp": 25,
-        "summary": "broken clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "20:00",
-        "temp": 24,
-        "summary": "broken clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "21:00",
-        "temp": 22,
-        "summary": "clear sky",
-        "icon": "clear-day"
-      },
-      {
-        "hour": "22:00",
-        "temp": 20,
-        "summary": "clear sky",
-        "icon": "clear-night"
-      },
-      {
-        "hour": "23:00",
-        "temp": 19,
-        "summary": "few clouds",
-        "icon": "partly-cloudy-night"
-      },
-      {
-        "hour": "00:00",
-        "temp": 18,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "01:00",
-        "temp": 18,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "02:00",
-        "temp": 17,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "03:00",
-        "temp": 17,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "04:00",
-        "temp": 16,
-        "summary": "broken clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "05:00",
-        "temp": 16,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "06:00",
-        "temp": 15,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "07:00",
-        "temp": 16,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "08:00",
-        "temp": 17,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "09:00",
-        "temp": 18,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "10:00",
-        "temp": 19,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      }
-    ]
-  },
-  {
-    "source": "ow",
-    "current": {
       "icon": "partly-cloudy-day",
-      "temp": 18,
+      "temp": 26,
       "summary": "few clouds",
-      "windDir": 70,
-      "humidity": 79,
-      "pressure": 1012,
-      "feelsLike": 18,
+      "windDir": 30,
+      "humidity": 58,
+      "pressure": 1010,
+      "feelsLike": 26,
       "windSpeed": 3.09,
       "cloudCover": 20,
       "visibility": 10,
@@ -366,19 +17,19 @@
     "forecast": [
       {
         "date": 1655809200,
-        "maxTemp": 27,
-        "minTemp": 14,
-        "sunrise": "05:46",
-        "sunset": "21:57",
+        "maxTemp": 26,
+        "minTemp": 13,
+        "sunrise": "05:47",
+        "sunset": "21:59",
         "summary": "light rain",
-        "windSpeed": 4.2,
-        "windDir": 38,
-        "percipitation": 0.72,
-        "humidity": 65,
+        "windSpeed": 4.72,
+        "windDir": 48,
+        "percipitation": 0.77,
+        "humidity": 47,
         "pressure": 1012,
-        "cloudCover": 30,
-        "dewPoint": 14,
-        "chancePrecipitation": 44,
+        "cloudCover": 41,
+        "dewPoint": 12,
+        "chancePrecipitation": 41,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -391,17 +42,17 @@
         "date": 1655895600,
         "maxTemp": 29,
         "minTemp": 15,
-        "sunrise": "05:47",
-        "sunset": "21:57",
-        "summary": "light rain",
-        "windSpeed": 3.39,
-        "windDir": 41,
-        "percipitation": 0.45,
-        "humidity": 40,
+        "sunrise": "05:48",
+        "sunset": "21:59",
+        "summary": "moderate rain",
+        "windSpeed": 3.78,
+        "windDir": 66,
+        "percipitation": 5.23,
+        "humidity": 47,
         "pressure": 1011,
-        "cloudCover": 90,
-        "dewPoint": 11,
-        "chancePrecipitation": 59,
+        "cloudCover": 91,
+        "dewPoint": 12,
+        "chancePrecipitation": 93,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -414,17 +65,17 @@
         "date": 1655982000,
         "maxTemp": 30,
         "minTemp": 18,
-        "sunrise": "05:47",
-        "sunset": "21:58",
-        "summary": "moderate rain",
-        "windSpeed": 8.41,
-        "windDir": 239,
-        "percipitation": 7.96,
-        "humidity": 41,
-        "pressure": 1011,
-        "cloudCover": 3,
-        "dewPoint": 13,
-        "chancePrecipitation": 92,
+        "sunrise": "05:48",
+        "sunset": "21:59",
+        "summary": "light rain",
+        "windSpeed": 5.08,
+        "windDir": 267,
+        "percipitation": 0.5,
+        "humidity": 47,
+        "pressure": 1010,
+        "cloudCover": 18,
+        "dewPoint": 15,
+        "chancePrecipitation": 94,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -435,19 +86,19 @@
       },
       {
         "date": 1656068400,
-        "maxTemp": 23,
+        "maxTemp": 22,
         "minTemp": 17,
-        "sunrise": "05:47",
-        "sunset": "21:58",
+        "sunrise": "05:48",
+        "sunset": "21:59",
         "summary": "light rain",
-        "windSpeed": 5.25,
-        "windDir": 222,
-        "percipitation": 2.8,
-        "humidity": 54,
-        "pressure": 1011,
-        "cloudCover": 90,
-        "dewPoint": 13,
-        "chancePrecipitation": 88,
+        "windSpeed": 5.87,
+        "windDir": 228,
+        "percipitation": 4.51,
+        "humidity": 80,
+        "pressure": 1009,
+        "cloudCover": 99,
+        "dewPoint": 15,
+        "chancePrecipitation": 100,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -458,19 +109,19 @@
       },
       {
         "date": 1656154800,
-        "maxTemp": 20,
+        "maxTemp": 23,
         "minTemp": 15,
         "sunrise": "05:48",
-        "sunset": "21:58",
+        "sunset": "21:59",
         "summary": "light rain",
-        "windSpeed": 3.88,
-        "windDir": 244,
-        "percipitation": 1.48,
-        "humidity": 62,
-        "pressure": 1008,
+        "windSpeed": 5.05,
+        "windDir": 239,
+        "percipitation": 0.31,
+        "humidity": 37,
+        "pressure": 1011,
         "cloudCover": 100,
-        "dewPoint": 12,
-        "chancePrecipitation": 94,
+        "dewPoint": 6,
+        "chancePrecipitation": 36,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -481,19 +132,19 @@
       },
       {
         "date": 1656241200,
-        "maxTemp": 21,
-        "minTemp": 11,
-        "sunrise": "05:48",
-        "sunset": "21:58",
+        "maxTemp": 23,
+        "minTemp": 13,
+        "sunrise": "05:49",
+        "sunset": "21:59",
         "summary": "light rain",
-        "windSpeed": 4.54,
-        "windDir": 221,
-        "percipitation": 0.43,
-        "humidity": 36,
+        "windSpeed": 4.39,
+        "windDir": 276,
+        "percipitation": 2.76,
+        "humidity": 33,
         "pressure": 1013,
-        "cloudCover": 80,
+        "cloudCover": 76,
         "dewPoint": 5,
-        "chancePrecipitation": 32,
+        "chancePrecipitation": 90,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -504,41 +155,41 @@
       },
       {
         "date": 1656327600,
-        "maxTemp": 22,
-        "minTemp": 12,
-        "sunrise": "05:48",
-        "sunset": "21:58",
-        "summary": "scattered clouds",
-        "windSpeed": 3.41,
-        "windDir": 220,
-        "percipitation": 0,
-        "humidity": 29,
-        "pressure": 1018,
-        "cloudCover": 29,
-        "dewPoint": 3,
-        "chancePrecipitation": 0,
+        "maxTemp": 23,
+        "minTemp": 11,
+        "sunrise": "05:49",
+        "sunset": "21:59",
+        "summary": "light rain",
+        "windSpeed": 4.59,
+        "windDir": 316,
+        "percipitation": 1.61,
+        "humidity": 33,
+        "pressure": 1017,
+        "cloudCover": 2,
+        "dewPoint": 4,
+        "chancePrecipitation": 99,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
         "chanceSleet": 0,
-        "icon": "cloudy",
+        "icon": "rain",
         "day": "Monday",
         "dayShort": "Mon"
       },
       {
         "date": 1656414000,
-        "maxTemp": 26,
-        "minTemp": 15,
-        "sunrise": "05:49",
-        "sunset": "21:58",
-        "summary": "broken clouds",
-        "windSpeed": 1.63,
-        "windDir": 170,
+        "maxTemp": 25,
+        "minTemp": 13,
+        "sunrise": "05:50",
+        "sunset": "21:59",
+        "summary": "scattered clouds",
+        "windSpeed": 4.28,
+        "windDir": 214,
         "percipitation": 0,
-        "humidity": 29,
-        "pressure": 1017,
-        "cloudCover": 53,
-        "dewPoint": 6,
+        "humidity": 28,
+        "pressure": 1018,
+        "cloudCover": 33,
+        "dewPoint": 4,
         "chancePrecipitation": 0,
         "chanceRain": 0,
         "chanceSnow": 0,
@@ -552,63 +203,21 @@
     "timezone": "Europe/Paris",
     "nextHours": [
       {
-        "hour": "10:00",
-        "temp": 18,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "11:00",
-        "temp": 18,
-        "summary": "few clouds",
-        "icon": "partly-cloudy-day"
-      },
-      {
-        "hour": "12:00",
-        "temp": 19,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "13:00",
-        "temp": 20,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "14:00",
-        "temp": 22,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "15:00",
-        "temp": 24,
-        "summary": "few clouds",
-        "icon": "partly-cloudy-day"
-      },
-      {
-        "hour": "16:00",
+        "hour": "17:00",
         "temp": 26,
         "summary": "few clouds",
         "icon": "partly-cloudy-day"
-      },
-      {
-        "hour": "17:00",
-        "temp": 27,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
       },
       {
         "hour": "18:00",
         "temp": 26,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
+        "summary": "few clouds",
+        "icon": "partly-cloudy-day"
       },
       {
         "hour": "19:00",
         "temp": 26,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
@@ -625,27 +234,27 @@
       },
       {
         "hour": "22:00",
-        "temp": 20,
-        "summary": "light rain",
-        "icon": "rain"
+        "temp": 21,
+        "summary": "clear sky",
+        "icon": "clear-night"
       },
       {
         "hour": "23:00",
         "temp": 19,
-        "summary": "light rain",
-        "icon": "rain"
+        "summary": "clear sky",
+        "icon": "clear-night"
       },
       {
         "hour": "00:00",
         "temp": 18,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
+        "summary": "light rain",
+        "icon": "rain"
       },
       {
         "hour": "01:00",
         "temp": 17,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
+        "summary": "light rain",
+        "icon": "rain"
       },
       {
         "hour": "02:00",
@@ -655,32 +264,32 @@
       },
       {
         "hour": "03:00",
-        "temp": 17,
+        "temp": 16,
         "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
         "hour": "04:00",
         "temp": 16,
-        "summary": "broken clouds",
+        "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
         "hour": "05:00",
         "temp": 16,
-        "summary": "broken clouds",
+        "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
         "hour": "06:00",
         "temp": 15,
-        "summary": "broken clouds",
+        "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
         "hour": "07:00",
         "temp": 16,
-        "summary": "broken clouds",
+        "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
@@ -691,7 +300,49 @@
       },
       {
         "hour": "09:00",
-        "temp": 18,
+        "temp": 19,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "10:00",
+        "temp": 21,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "11:00",
+        "temp": 22,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "12:00",
+        "temp": 22,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "13:00",
+        "temp": 25,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "14:00",
+        "temp": 27,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "15:00",
+        "temp": 28,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "16:00",
+        "temp": 29,
         "summary": "overcast clouds",
         "icon": "cloudy"
       }
@@ -701,38 +352,387 @@
     "source": "ow",
     "current": {
       "icon": "cloudy",
-      "temp": 17,
-      "summary": "overcast clouds",
-      "windDir": 60,
-      "humidity": 61,
-      "pressure": 1013,
-      "feelsLike": 17,
-      "windSpeed": 6.36,
-      "cloudCover": 97,
+      "temp": 26,
+      "summary": "scattered clouds",
+      "windDir": 20,
+      "humidity": 56,
+      "pressure": 1010,
+      "feelsLike": 26,
+      "windSpeed": 3.6,
+      "cloudCover": 40,
+      "visibility": 10,
+      "percipitation": 0
+    },
+    "forecast": [
+      {
+        "date": 1655809200,
+        "maxTemp": 26,
+        "minTemp": 14,
+        "sunrise": "05:46",
+        "sunset": "21:57",
+        "summary": "light rain",
+        "windSpeed": 4.31,
+        "windDir": 49,
+        "percipitation": 0.37,
+        "humidity": 47,
+        "pressure": 1011,
+        "cloudCover": 29,
+        "dewPoint": 13,
+        "chancePrecipitation": 42,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Tuesday",
+        "dayShort": "Tue"
+      },
+      {
+        "date": 1655895600,
+        "maxTemp": 28,
+        "minTemp": 16,
+        "sunrise": "05:47",
+        "sunset": "21:57",
+        "summary": "moderate rain",
+        "windSpeed": 2.98,
+        "windDir": 70,
+        "percipitation": 4.25,
+        "humidity": 47,
+        "pressure": 1010,
+        "cloudCover": 99,
+        "dewPoint": 13,
+        "chancePrecipitation": 79,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Wednesday",
+        "dayShort": "Wed"
+      },
+      {
+        "date": 1655982000,
+        "maxTemp": 30,
+        "minTemp": 18,
+        "sunrise": "05:47",
+        "sunset": "21:58",
+        "summary": "few clouds",
+        "windSpeed": 4.84,
+        "windDir": 250,
+        "percipitation": 0,
+        "humidity": 46,
+        "pressure": 1010,
+        "cloudCover": 14,
+        "dewPoint": 15,
+        "chancePrecipitation": 83,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "partly-cloudy-day",
+        "day": "Thursday",
+        "dayShort": "Thu"
+      },
+      {
+        "date": 1656068400,
+        "maxTemp": 22,
+        "minTemp": 18,
+        "sunrise": "05:47",
+        "sunset": "21:58",
+        "summary": "light rain",
+        "windSpeed": 5.57,
+        "windDir": 227,
+        "percipitation": 3.12,
+        "humidity": 72,
+        "pressure": 1009,
+        "cloudCover": 98,
+        "dewPoint": 15,
+        "chancePrecipitation": 100,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Friday",
+        "dayShort": "Fri"
+      },
+      {
+        "date": 1656154800,
+        "maxTemp": 23,
+        "minTemp": 15,
+        "sunrise": "05:48",
+        "sunset": "21:58",
+        "summary": "light rain",
+        "windSpeed": 4.57,
+        "windDir": 238,
+        "percipitation": 1.24,
+        "humidity": 38,
+        "pressure": 1011,
+        "cloudCover": 100,
+        "dewPoint": 7,
+        "chancePrecipitation": 63,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Saturday",
+        "dayShort": "Sat"
+      },
+      {
+        "date": 1656241200,
+        "maxTemp": 24,
+        "minTemp": 14,
+        "sunrise": "05:48",
+        "sunset": "21:58",
+        "summary": "light rain",
+        "windSpeed": 4.08,
+        "windDir": 211,
+        "percipitation": 1.38,
+        "humidity": 31,
+        "pressure": 1013,
+        "cloudCover": 72,
+        "dewPoint": 4,
+        "chancePrecipitation": 63,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Sunday",
+        "dayShort": "Sun"
+      },
+      {
+        "date": 1656327600,
+        "maxTemp": 23,
+        "minTemp": 12,
+        "sunrise": "05:48",
+        "sunset": "21:58",
+        "summary": "light rain",
+        "windSpeed": 3.95,
+        "windDir": 238,
+        "percipitation": 1.81,
+        "humidity": 33,
+        "pressure": 1017,
+        "cloudCover": 1,
+        "dewPoint": 4,
+        "chancePrecipitation": 94,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "rain",
+        "day": "Monday",
+        "dayShort": "Mon"
+      },
+      {
+        "date": 1656414000,
+        "maxTemp": 25,
+        "minTemp": 13,
+        "sunrise": "05:49",
+        "sunset": "21:58",
+        "summary": "scattered clouds",
+        "windSpeed": 3.96,
+        "windDir": 212,
+        "percipitation": 0,
+        "humidity": 27,
+        "pressure": 1018,
+        "cloudCover": 37,
+        "dewPoint": 4,
+        "chancePrecipitation": 0,
+        "chanceRain": 0,
+        "chanceSnow": 0,
+        "chanceThunder": 0,
+        "chanceSleet": 0,
+        "icon": "cloudy",
+        "day": "Tuesday",
+        "dayShort": "Tue"
+      }
+    ],
+    "timezone": "Europe/Paris",
+    "nextHours": [
+      {
+        "hour": "16:00",
+        "temp": 26,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "17:00",
+        "temp": 26,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "18:00",
+        "temp": 26,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "19:00",
+        "temp": 26,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "20:00",
+        "temp": 26,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "21:00",
+        "temp": 24,
+        "summary": "clear sky",
+        "icon": "clear-day"
+      },
+      {
+        "hour": "22:00",
+        "temp": 21,
+        "summary": "clear sky",
+        "icon": "clear-night"
+      },
+      {
+        "hour": "23:00",
+        "temp": 20,
+        "summary": "few clouds",
+        "icon": "partly-cloudy-night"
+      },
+      {
+        "hour": "00:00",
+        "temp": 18,
+        "summary": "light rain",
+        "icon": "rain"
+      },
+      {
+        "hour": "01:00",
+        "temp": 18,
+        "summary": "light rain",
+        "icon": "rain"
+      },
+      {
+        "hour": "02:00",
+        "temp": 17,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "03:00",
+        "temp": 17,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "04:00",
+        "temp": 17,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "05:00",
+        "temp": 16,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "06:00",
+        "temp": 16,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "07:00",
+        "temp": 16,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "08:00",
+        "temp": 18,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "09:00",
+        "temp": 19,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "10:00",
+        "temp": 21,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "11:00",
+        "temp": 22,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "12:00",
+        "temp": 23,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "13:00",
+        "temp": 25,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "14:00",
+        "temp": 27,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "15:00",
+        "temp": 28,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      }
+    ]
+  },
+  {
+    "source": "ow",
+    "current": {
+      "icon": "partly-cloudy-day",
+      "temp": 19,
+      "summary": "few clouds",
+      "windDir": 55,
+      "humidity": 53,
+      "pressure": 1011,
+      "feelsLike": 18,
+      "windSpeed": 6.6,
+      "cloudCover": 13,
       "visibility": 10,
       "percipitation": 0
     },
     "forecast": [
       {
         "date": 1655812800,
-        "maxTemp": 21,
+        "maxTemp": 20,
         "minTemp": 15,
         "sunrise": "06:00",
         "sunset": "22:16",
-        "summary": "light rain",
+        "summary": "scattered clouds",
         "windSpeed": 7.72,
         "windDir": 60,
-        "percipitation": 0.29,
-        "humidity": 57,
+        "percipitation": 0,
+        "humidity": 55,
         "pressure": 1012,
-        "cloudCover": 80,
+        "cloudCover": 38,
         "dewPoint": 10,
-        "chancePrecipitation": 49,
+        "chancePrecipitation": 23,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
         "chanceSleet": 0,
-        "icon": "rain",
+        "icon": "cloudy",
         "day": "Tuesday",
         "dayShort": "Tue"
       },
@@ -743,14 +743,14 @@
         "sunrise": "06:01",
         "sunset": "22:16",
         "summary": "light rain",
-        "windSpeed": 6.59,
-        "windDir": 69,
-        "percipitation": 0.27,
-        "humidity": 53,
+        "windSpeed": 6.75,
+        "windDir": 73,
+        "percipitation": 0.26,
+        "humidity": 51,
         "pressure": 1012,
-        "cloudCover": 45,
-        "dewPoint": 12,
-        "chancePrecipitation": 45,
+        "cloudCover": 60,
+        "dewPoint": 11,
+        "chancePrecipitation": 33,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -761,19 +761,19 @@
       },
       {
         "date": 1655985600,
-        "maxTemp": 19,
-        "minTemp": 16,
+        "maxTemp": 18,
+        "minTemp": 15,
         "sunrise": "06:01",
         "sunset": "22:17",
         "summary": "light rain",
-        "windSpeed": 5.21,
-        "windDir": 304,
-        "percipitation": 0.13,
-        "humidity": 82,
+        "windSpeed": 5.16,
+        "windDir": 286,
+        "percipitation": 0.83,
+        "humidity": 83,
         "pressure": 1011,
-        "cloudCover": 45,
+        "cloudCover": 37,
         "dewPoint": 15,
-        "chancePrecipitation": 42,
+        "chancePrecipitation": 38,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -784,19 +784,19 @@
       },
       {
         "date": 1656072000,
-        "maxTemp": 18,
+        "maxTemp": 17,
         "minTemp": 15,
         "sunrise": "06:01",
         "sunset": "22:17",
         "summary": "light rain",
-        "windSpeed": 7.08,
-        "windDir": 241,
-        "percipitation": 0.71,
+        "windSpeed": 7.51,
+        "windDir": 243,
+        "percipitation": 2.37,
         "humidity": 79,
-        "pressure": 1010,
-        "cloudCover": 82,
+        "pressure": 1008,
+        "cloudCover": 44,
         "dewPoint": 13,
-        "chancePrecipitation": 40,
+        "chancePrecipitation": 100,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -807,19 +807,19 @@
       },
       {
         "date": 1656158400,
-        "maxTemp": 15,
-        "minTemp": 14,
+        "maxTemp": 16,
+        "minTemp": 13,
         "sunrise": "06:01",
         "sunset": "22:17",
         "summary": "light rain",
-        "windSpeed": 5.7,
-        "windDir": 292,
-        "percipitation": 5.02,
-        "humidity": 69,
-        "pressure": 1008,
-        "cloudCover": 100,
-        "dewPoint": 10,
-        "chancePrecipitation": 77,
+        "windSpeed": 7.94,
+        "windDir": 272,
+        "percipitation": 1.52,
+        "humidity": 65,
+        "pressure": 1011,
+        "cloudCover": 3,
+        "dewPoint": 9,
+        "chancePrecipitation": 100,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -830,19 +830,19 @@
       },
       {
         "date": 1656244800,
-        "maxTemp": 15,
+        "maxTemp": 16,
         "minTemp": 13,
         "sunrise": "06:02",
         "sunset": "22:17",
         "summary": "light rain",
-        "windSpeed": 6.76,
-        "windDir": 255,
-        "percipitation": 2.7,
-        "humidity": 67,
-        "pressure": 1013,
-        "cloudCover": 11,
+        "windSpeed": 6.23,
+        "windDir": 196,
+        "percipitation": 3.13,
+        "humidity": 61,
+        "pressure": 1012,
+        "cloudCover": 100,
         "dewPoint": 9,
-        "chancePrecipitation": 58,
+        "chancePrecipitation": 92,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -858,14 +858,14 @@
         "sunrise": "06:02",
         "sunset": "22:17",
         "summary": "light rain",
-        "windSpeed": 6.5,
-        "windDir": 226,
-        "percipitation": 1.54,
-        "humidity": 63,
+        "windSpeed": 5.81,
+        "windDir": 245,
+        "percipitation": 1.33,
+        "humidity": 67,
         "pressure": 1017,
-        "cloudCover": 45,
-        "dewPoint": 8,
-        "chancePrecipitation": 38,
+        "cloudCover": 12,
+        "dewPoint": 9,
+        "chancePrecipitation": 36,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
@@ -876,24 +876,24 @@
       },
       {
         "date": 1656417600,
-        "maxTemp": 19,
-        "minTemp": 12,
+        "maxTemp": 18,
+        "minTemp": 13,
         "sunrise": "06:03",
         "sunset": "22:17",
-        "summary": "broken clouds",
-        "windSpeed": 4.17,
+        "summary": "light rain",
+        "windSpeed": 9.79,
         "windDir": 191,
-        "percipitation": 0,
-        "humidity": 63,
-        "pressure": 1017,
-        "cloudCover": 62,
-        "dewPoint": 9,
-        "chancePrecipitation": 0,
+        "percipitation": 0.4,
+        "humidity": 66,
+        "pressure": 1015,
+        "cloudCover": 98,
+        "dewPoint": 12,
+        "chancePrecipitation": 43,
         "chanceRain": 0,
         "chanceSnow": 0,
         "chanceThunder": 0,
         "chanceSleet": 0,
-        "icon": "cloudy",
+        "icon": "rain",
         "day": "Tuesday",
         "dayShort": "Tue"
       }
@@ -901,82 +901,46 @@
     "timezone": "Europe/Paris",
     "nextHours": [
       {
-        "hour": "11:00",
-        "temp": 17,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "12:00",
-        "temp": 18,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "13:00",
-        "temp": 18,
-        "summary": "overcast clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "14:00",
+        "hour": "17:00",
         "temp": 19,
-        "summary": "broken clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "15:00",
-        "temp": 20,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
-        "hour": "16:00",
-        "temp": 21,
         "summary": "few clouds",
         "icon": "partly-cloudy-day"
       },
       {
-        "hour": "17:00",
-        "temp": 20,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
-      },
-      {
         "hour": "18:00",
-        "temp": 20,
-        "summary": "broken clouds",
-        "icon": "cloudy"
+        "temp": 19,
+        "summary": "few clouds",
+        "icon": "partly-cloudy-day"
       },
       {
         "hour": "19:00",
         "temp": 19,
-        "summary": "light rain",
-        "icon": "rain"
+        "summary": "few clouds",
+        "icon": "partly-cloudy-day"
       },
       {
         "hour": "20:00",
         "temp": 19,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
         "hour": "21:00",
         "temp": 18,
-        "summary": "overcast clouds",
+        "summary": "broken clouds",
         "icon": "cloudy"
       },
       {
         "hour": "22:00",
         "temp": 16,
-        "summary": "broken clouds",
+        "summary": "overcast clouds",
         "icon": "cloudy"
       },
       {
         "hour": "23:00",
         "temp": 15,
-        "summary": "light rain",
-        "icon": "rain"
+        "summary": "broken clouds",
+        "icon": "cloudy"
       },
       {
         "hour": "00:00",
@@ -987,7 +951,7 @@
       {
         "hour": "01:00",
         "temp": 15,
-        "summary": "overcast clouds",
+        "summary": "broken clouds",
         "icon": "cloudy"
       },
       {
@@ -999,13 +963,13 @@
       {
         "hour": "03:00",
         "temp": 15,
-        "summary": "scattered clouds",
-        "icon": "cloudy"
+        "summary": "few clouds",
+        "icon": "partly-cloudy-night"
       },
       {
         "hour": "04:00",
         "temp": 15,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
@@ -1017,31 +981,67 @@
       {
         "hour": "06:00",
         "temp": 15,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
         "hour": "07:00",
         "temp": 15,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
         "hour": "08:00",
         "temp": 16,
-        "summary": "broken clouds",
+        "summary": "scattered clouds",
         "icon": "cloudy"
       },
       {
         "hour": "09:00",
-        "temp": 17,
-        "summary": "light rain",
-        "icon": "rain"
+        "temp": 18,
+        "summary": "scattered clouds",
+        "icon": "cloudy"
       },
       {
         "hour": "10:00",
-        "temp": 18,
-        "summary": "scattered clouds",
+        "temp": 19,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "11:00",
+        "temp": 20,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "12:00",
+        "temp": 20,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "13:00",
+        "temp": 21,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "14:00",
+        "temp": 22,
+        "summary": "broken clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "15:00",
+        "temp": 22,
+        "summary": "overcast clouds",
+        "icon": "cloudy"
+      },
+      {
+        "hour": "16:00",
+        "temp": 22,
+        "summary": "overcast clouds",
         "icon": "cloudy"
       }
     ]
