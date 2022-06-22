@@ -26,7 +26,7 @@ The following section references all the static single-page-Applications from th
         <li>v0.1: Initialization.</li>
     </ul>
     <ul>
-        <li>Next char to come: Shinobu (10000065) - On Itto's banner release (20</li>
+        <li>Next char to come: Shikanoin Heizou (unknown id)</li>
     </ul>
     
 </details>
