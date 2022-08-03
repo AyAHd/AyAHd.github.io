@@ -19,8 +19,9 @@ jobs:
            submodules: true  
       
       - uses: actions/upload-pages-artifact@v0
-        path: ./
-        retention-days: 1
+        with: 
+          path: ./
+          retention-days: 1
 
       - name: Check on dir structure
         run: |
