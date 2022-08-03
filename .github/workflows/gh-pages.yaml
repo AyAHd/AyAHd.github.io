@@ -14,16 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checking out repositories
+        uses: actions/checkout@v3
         with:
            submodules: true  
-      
-      - uses: actions/upload-pages-artifact@v0
-        with: 
-          path: ./
-          retention-days: 1
 
-      - name: Check on dir structure
+      - name: Packaging
         run: |
           tar \
             --dereference --hard-dereference \
@@ -31,7 +27,13 @@ jobs:
             -cvf ${{ runner.temp }}/artifact.tar \
             --exclude=.git \
             .
-          ls -la
+      
+      - name: Uploading package
+        uses: actions/upload-artifact@main
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: ${{ inputs.retention-days }}
 
   deploy: 
     needs: build
@@ -47,13 +49,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:  
-      - name: Upload artifact
-        uses: actions/upload-artifact@main
-        with:
-          name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
-          retention-days: ${{ inputs.retention-days }}
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
