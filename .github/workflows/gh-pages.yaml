@@ -25,6 +25,25 @@ jobs:
         with:
            submodules: true  
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Check on dir structure
         run: |
-          echo Deployment is OK!
+          ls -la
+
+  deploy: 
+    needs: build
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:  
+      - name: Upload artifact
+      uses: actions/upload-artifact@main
+      with:
+        name: github-pages
+        path: ${{ runner.temp }}/artifact.tar
+        retention-days: ${{ inputs.retention-days }}
